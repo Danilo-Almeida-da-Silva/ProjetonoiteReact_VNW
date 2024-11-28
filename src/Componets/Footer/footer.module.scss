@@ -1,0 +1,35 @@
+.redesocial{
+    background-color: #005695;
+    border: solid green;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100vw;
+    height: 15vh;
+    color: #fff;
+
+    nav{
+        width: 20%;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        border: solid pink;
+
+    }
+    
+}
+
+.footerbaixo{
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100vw;
+    height: 5vh;
+
+    p{
+        text-align: center;
+        font-size: 15px;
+        color: #fff;
+    }
+}
