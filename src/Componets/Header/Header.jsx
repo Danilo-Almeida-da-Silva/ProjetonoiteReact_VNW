@@ -4,7 +4,7 @@ import logoLivro from '../../assets/logoLivro.png'
 import Inicio from '../../Pages/inicio/Inicio'
 import LivrosDoados from '../../Pages/livrosDoados/LivrosDoados'
 import QueroDoar from '../../Pages/queroDoar/QueroDoar'
-import s from '../../componets/Header/header.module.scss'
+import s from './header.module.scss'
 import lupa from '../../assets/lupa.png'
 
 
