@@ -8,29 +8,30 @@
 
 
     h2 {
+        color: black;
         font-size: 32px;
     }
 }
 
-.sectionlivros{
-    width: 95%;
-    height: 80vh;
+.sectionlivro{
+    width: 95vw;
+    height: 70vh;
+    display: flex;
     align-items: center;
-    border: solid 5px black;
+    justify-content: space-evenly;
 
-    .amostradolivro {
-        width: 18%;
+    section {
+        width: 15%;
         height: 40vh;
-        border: solid 3px red;
+        border: solid 3px #0312bc;
         border-radius: 20px;
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: space-evenly;
        
-
+    
         div {
-            border: solid green;
             text-align: center;
             p{
                 color: black;
@@ -38,5 +39,6 @@
             }
             
         }
-    }
+    } 
 }
+

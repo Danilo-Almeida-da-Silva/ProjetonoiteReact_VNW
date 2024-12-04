@@ -5,9 +5,8 @@ export default function LivrosDoados(){
     return(
         <section className={s.livroiniciodoados}>
             <h2>Livros Doados</h2>
-       
             <section className={s.sectionlivro}>
-                <section className={s.amostradolivro}>
+                <section>
                     <img src={livrodoado} alt="Icone de um livro fechado com capa vermelha para representar o livro doado com o Titulo escrito nele" />
                     <div> 
                         <p>O protagonista</p>
@@ -15,8 +14,15 @@ export default function LivrosDoados(){
                         <p>Ficção</p>
                     </div>
                 </section>
+                <section>
+                    <img src={livrodoado} alt="Icone de um livro fechado com capa vermelha para representar o livro doado com o Titulo escrito nele" />
+                    <div> 
+                        <p>O homem torto</p>
+                        <p>Susanne de assis</p>
+                        <p>Terror</p>
+                    </div>
+                </section>
             </section>
         </section>
-     
     )
 }
