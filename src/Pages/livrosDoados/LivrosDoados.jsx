@@ -8,7 +8,7 @@ export default function LivrosDoados(){
        
             <section className={s.sectionlivro}>
                 <section className={s.amostradolivro}>
-                    <img src={livrodoado} alt="Icone de um livro fechado com capa vermelha para representar o livro doado" />
+                    <img src={livrodoado} alt="Icone de um livro fechado com capa vermelha para representar o livro doado com o Titulo escrito nele" />
                     <div> 
                         <p>O protagonista</p>
                         <p>Susanne Andrade</p>
