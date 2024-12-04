@@ -3,9 +3,9 @@ import s from '../../Pages/queroDoar/QueroDoar.module.scss'
 
 export default function Querodoar(){
     return(
-        <section className={s.doar1}>
+        <section className={s.sectiondoar}>
 
-            <p>Por favor, preencha o formulário com suas informações e as informações do Livro</p>
+            <p>Por favor, preencha o formulário com suas informações e as informações do Livro!</p>
 
             <form action="">
             
