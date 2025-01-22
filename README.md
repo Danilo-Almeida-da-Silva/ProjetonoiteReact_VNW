@@ -5,6 +5,9 @@ Esse projeto é meu primeiro contato com React sobre website com intuito de doa�
 ferramentas utilizadas
 🛠 React + Vite
 
+projeto disponivel no vercel
+https://projetonoite-react-vnw-dh6n.vercel.app/
+
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
