@@ -1,11 +1,11 @@
-Projeto de React da escola Vai Na Web
+# Projeto de React da escola Vai Na Web
 
 Esse projeto é meu primeiro contato com React sobre website com intuito de doação de livros feitos na escola Vai Na Web.
 
-ferramentas utilizadas
-🛠 React + Vite
+## 🛠 ferramentas utilizadas
+ React + Vite
 
-projeto disponivel no vercel
+## projeto disponivel no vercel
 https://projetonoite-react-vnw-dh6n.vercel.app/
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
