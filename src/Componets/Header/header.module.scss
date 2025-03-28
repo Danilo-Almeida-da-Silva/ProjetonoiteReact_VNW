@@ -24,12 +24,14 @@
 }
 
 .navHeader {
-  width: 30%;
+  width: 100%;
 
   ul {
     display: flex;
-    justify-content: space-around;
+    align-items: center;
+    justify-content: space-between;
     list-style: none;
+    width: 100%;
   }
 
   .link {
