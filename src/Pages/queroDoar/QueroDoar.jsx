@@ -56,6 +56,7 @@ export default function Querodoar() {
           id=''
           placeholder='Titulo'
           onChange={capturaTitulo}
+          required
         />
         <input
           type='text'
@@ -63,6 +64,7 @@ export default function Querodoar() {
           id=''
           placeholder='Categoria'
           onChange={capturaCategoria}
+          required
         />
         <input
           type='text'
@@ -70,6 +72,7 @@ export default function Querodoar() {
           id=''
           placeholder='Autor'
           onChange={capturaAutor}
+          required
         />
         <input
           type='text'
@@ -77,6 +80,7 @@ export default function Querodoar() {
           id=''
           placeholder='Link da Imagem'
           onChange={capturaImage_url}
+          required
         />
         <input
           type='submit'
