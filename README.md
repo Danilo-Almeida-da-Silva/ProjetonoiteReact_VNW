@@ -3,14 +3,44 @@
 Esse projeto é meu primeiro contato com React sobre website com intuito de doação de livros feitos na escola Vai Na Web.
 
 ## 🛠 ferramentas utilizadas
- React + Vite
+- React.js
+- JavaScript
+- Scss
+- Vercel (Deploy)
+
+## Como rodar o projeto Vai nos Livros
+
+1. Clone o repositório:
+```Bash
+git clone https://github.com/seu-usuario/projeto-noite-react.git
+```
+
+2. Acesse o diretório do projeto:
+```Bash
+cd projeto-noite-react
+```
+
+3. Instale as dependências:
+```Bash
+npm install
+```
+
+4. Inicie o servidor de desenvolvimento:
+```Bash
+npm start
+ou
+npm run dev
+```
 
 ## projeto disponivel no vercel
 https://projetonoite-react-vnw-dh6n.vercel.app/
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+📩 Contato
 
-Currently, two official plugins are available:
+Se tiver dúvidas ou sugestões, entre em contato:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Email: danilo.laet52@gmail.com
+
+GitHub: [Danilo](https://github.com/Danilo-Almeida-da-Silva)
+
+LinkedIn: [Danilo Almeida](https://www.linkedin.com/in/danilo-almeida-91a7a6201/)
