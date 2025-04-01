@@ -45,4 +45,4 @@ GitHub: [Danilo](https://github.com/Danilo-Almeida-da-Silva)
 
 LinkedIn: [Danilo Almeida](https://www.linkedin.com/in/danilo-almeida-91a7a6201/)
 
-Projeto desenvolvido por [Danilo Almeida].
+Projeto desenvolvido por **Danilo Almeida**.
