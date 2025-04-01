@@ -32,10 +32,10 @@ ou
 npm run dev
 ```
 
-## projeto disponivel no vercel
+## Projeto disponivel no vercel
 https://projetonoite-react-vnw-dh6n.vercel.app/
 
-### 📩 Contato
+## 📩 Contato
 
 Se tiver dúvidas ou sugestões, entre em contato:
 
