@@ -4,15 +4,15 @@ import s from '../../Pages/livrosDoados/livro.module.scss'
 import axios from 'axios'
 
 export default function LivrosDoados() {
-  const [Livros, setLivros] = useState([])
+  const [livros, setlivros] = useState([])
 
   const puxarLivros = async () => {
     const resposta = await axios.get(
       'https://api-flask-python-w3my.onrender.com/livros'
     )
-    set.Livros(resposta.data.Livros)
+    console.log(livros)
+    setlivros(resposta.data)
   }
-  console.log(Livros)
 
   useEffect(() => {
     puxarLivros()
@@ -21,28 +21,14 @@ export default function LivrosDoados() {
     <section className={s.livroiniciodoados}>
       <h2>Livros Doados</h2>
       <section className={s.sectionlivro}>
-        <section>
-          <img
-            src={livrodoado}
-            alt='Icone de um livro fechado com capa vermelha para representar o livro doado com o Titulo escrito nele'
-          />
-          <div>
-            <p>O protagonista</p>
-            <p>Susanne Andrade</p>
-            <p>Ficção</p>
-          </div>
-        </section>
-        <section>
-          <img
-            src={livrodoado}
-            alt='Icone de um livro fechado com capa vermelha para representar o livro doado com o Titulo escrito nele'
-          />
-          <div>
-            <p>O homem torto</p>
-            <p>Susanne de assis</p>
-            <p>Terror</p>
-          </div>
-        </section>
+        {livros.map((item) => (
+          <section>
+            <img src={item.image_url} alt={`Imagem do livro ${item.titulo}`} />
+            <div>
+              <h3>{item.titulo}</h3>
+            </div>
+          </section>
+        ))}
       </section>
     </section>
   )
